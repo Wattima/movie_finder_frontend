@@ -4,6 +4,7 @@ html {
 
 * {
   box-sizing: border-box;
+
 }
 
 body {
@@ -11,6 +12,10 @@ body {
   padding: 0;
   background-color: rgb(244,244,244);
   color: #333;
+  background-image: url("../assets/yellow.jpeg");
+  background-position: center; /* Center the image */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
 }
 
 p {
@@ -98,4 +103,8 @@ small {
 .card--image{
   margin: 0 auto;
   display: block;
+}
+
+Button {
+  font-size: 5em;
 }

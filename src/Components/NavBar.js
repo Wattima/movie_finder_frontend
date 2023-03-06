@@ -6,8 +6,10 @@ function NavBar() {
 
   return (
     <Box sx={{
-      backgroundColor: 'primary',
-      padding: 2.5,
+     backgroundColor: 'primary',
+    //  fontSize: '10rem',
+      color: 'white',
+      padding: 3,
       marginTop: 3,
       display: 'flex',
       justifyContent: 'space-evenly',
