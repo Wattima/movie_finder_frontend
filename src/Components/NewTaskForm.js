@@ -122,7 +122,7 @@ export default function NewTaskForm({ users, url, handleAddTask }) {
         </FormControl>
 
         <Button type="submit" variant="contained">Submit</Button>
-        <Button href="/tasks">Go to Tasks Page</Button>
+        <Button href="/tasks">Go to Movies Page</Button>
       </Box>
     </Container>
   )
