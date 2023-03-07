@@ -156,7 +156,7 @@ function Create({user}) {
         </PieceForm>
         <TagForm>
             <form onSubmit ={(e) => postTag(e, tagForm)}>
-                <label>Add Tag</label>
+                <label>Add Tag i.e year, genre  which can be used to search</label>
                 <br/>
                 <input type ="text" value={tagForm.tag} onChange={(e) => setTagForm({...tagForm, tag: e.target.value})}/>
                 {(showTagForm && tagFill) ? <button type="submit">Submit</button> : <button type="submit" disabled>Submit</button>}
@@ -174,7 +174,7 @@ function Create({user}) {
                     tag: "",
                     creation_id: null,
                 })
-            }}>Add Tags</button> : <button disabled>Add Tags</button>}
+            }}>Add Tags i.e year</button> : <button disabled>Add Tags</button>}
         </TagForm>
 
         </CreatePage>
@@ -193,7 +193,7 @@ margin-top: 30px;
 text-align: center;
 .content{
     width: 80%;
-    height: 50vh;
+    height: 20vh;
     font-size: 20px;
     font-family: Mulish;
     line-height: 2;
