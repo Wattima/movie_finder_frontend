@@ -132,7 +132,7 @@ function Create({user}) {
 
     return (
         <CreatePage>
-        <h1>Post Your Writing!</h1>
+        <h1>Post Your Movie!</h1>
         <PieceForm onChange={handlePieceChange} onSubmit={(e) => postCreation(e, pieceForm)}>
             <label>Title</label>
             <input name="title" type="text" value={pieceForm.title}/>
